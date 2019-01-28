@@ -85,6 +85,28 @@
             font-size: 2rem;
         transform-style: preserve-3d;
     }
+    @media (min-width:368px){
+        .overlay .titulo{
+            font-size: 1rem;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+           
+        }
+        .overlay p{
+           position: absolute;
+           top: 40%;
+
+        }
+        .contactos-descripcion p{
+            text-align:center;
+        }
+        #about-info{
+            text-align: center;
+        }
+    }
     
     </style>
 </head>
@@ -114,12 +136,12 @@
     </header>
 
     <div class="overlay">
-        <h1>Find Us</h1>
+        <h1 class="titulo">Find Us</h1>
         <p>CONTACT</p>
         <div class="layout"></div>
     </div>
 
-    <section class="p-5 mt-4">
+    <section class="p-5 mt-4 contactos-descripcion">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -179,7 +201,7 @@
             <div class="row">
 
                 <div class="col-md-6 mx-auto">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium tempora est officiis, ab
+                    <p id="about-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium tempora est officiis, ab
                         laboriosam praesentium ratione non mollitia, reprehenderit in ducimus maxime aperiam quibusdam
                         nemo aspernatur! Placeat quaerat natus odio molestiae, minus ducimus vero consectetur,
                         praesentium iste nostrum, quo quae.</p>

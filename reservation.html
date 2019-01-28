@@ -100,6 +100,40 @@
         font-weight: bolder;
         transform: scale(1.1,1.1);
     }
+    @media (min-width:368px){
+        p.message{
+        margin-top: -1rem;
+    }
+    h1.headline{
+        position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-weight: bolder;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    .reserve{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .info-reserve{
+        text-align: center;
+    }
+    #titulo-events{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .info-events{
+        text-align: center;
+    }
+    .info-about{
+        text-align: center;
+    }
+    
+}
+   
     
     </style>
 </head>
@@ -130,7 +164,7 @@
 
     <div class="overlay">
         <h1 class="headline">Make a Reservation</h1>
-        <p>Booking a table online is easy and takes just a couple of minutes.</p>
+        <p class="message">Booking a table online is easy and takes just a couple of minutes.</p>
         <div class="layout"></div>
     </div>
 
@@ -175,19 +209,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="">RESERVE BY PHONE</h2>
+                    <h2 class="reserve">RESERVE BY PHONE</h2>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui et saepe esse rem quia expedita
+                    <p class="info-reserve">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui et saepe esse rem quia expedita
                         minima non tempora earum nostrum, dignissimos doloribus! Cumque aut voluptas sit sed soluta eos
                         beatae?</p>
 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem facere iste impedit
+                    <p class="info-reserve">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem facere iste impedit
                         molestias quam totam. Animi vero quasi numquam debitis perspiciatis placeat? Minus, unde
                         voluptatum perferendis nostrum quisquam sit nesciunt.</p>
                 </div>
                 <div class="col-md-6">
-                    <h2>EVENTS</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam rerum vel adipisci
+                    <h2 id="titulo-events">EVENTS</h2>
+                    <p class="info-events">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam rerum vel adipisci
                         temporibus distinctio esse officiis! Enim cumque in quos et reprehenderit ratione nisi, sunt
                         tempora, quae ad recusandae temporibus dolor obcaecati, ipsa aut. Suscipit dignissimos totam
                         cupiditate accusantium.</p>
@@ -245,7 +279,7 @@
             <div class="row">
 
                 <div class="col-md-6 mx-auto">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iure modi debitis
+                    <p class="info-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iure modi debitis
                         voluptatem quam labore expedita sed non totam tempore placeat, explicabo cupiditate sint rerum
                         eveniet velit. Aspernatur, voluptatum qui.</p>
 
